@@ -5,7 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 class UtilsTest {
-    @Test void isAllPositiveNumbersTest() {
+    @Test
+    void isAllPositiveNumbersTest() {
         assertTrue(Utils.isAllPositiveNumbers("1", "2", "3"));
         assertFalse(Utils.isAllPositiveNumbers("1", "-2", "3"));
         assertFalse(Utils.isAllPositiveNumbers("A", "2", "3"));

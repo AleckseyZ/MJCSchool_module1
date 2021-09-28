@@ -5,7 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 class StringUtilsTest {
-    @Test void positiveNumberTest() {
+    @Test
+    void positiveNumberTest() {
         assertFalse(StringUtils.isPositiveNumber("F"));
         assertFalse(StringUtils.isPositiveNumber("-1"));
         assertTrue(StringUtils.isPositiveNumber("1"));
